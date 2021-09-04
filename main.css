@@ -1,0 +1,158 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.wraper{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+header{
+    background-color: rgb(197, 162, 5);
+    position: relative;
+    padding: 15px 0;
+
+
+}
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+
+
+}
+
+.nav{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+.list li + li{
+    padding-left: 10px;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.main{
+    flex-grow: 1;
+    display: flex;
+
+}
+
+.content{
+    width: calc(100%-420px);
+    padding: 15px;
+}
+
+.aside-left{
+    order: -1;
+    background: #c798b9;
+    }
+
+.aside-right{
+    background: #9cb1c7;
+}
+
+.asidebar{
+        max-width: 210px;
+        padding: 15px;
+        width: 100%;
+}
+
+footer{
+    flex: 0 0 auto;
+    background-color: rgb(113, 199, 113);
+    display: flex;
+    justify-content: center;
+}
+.container1{
+flex-direction: column;
+flex-grow: 1;
+}
+.row{
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    text-align: center;
+    padding: 15px;
+
+    
+
+ }
+ .col{
+     width: 33.333%;
+     padding: 0 10px;
+
+ }
+ .card{
+     border: 1px solid rgb(134, 71, 134);
+     border-radius: 10px;
+     padding: 10px;
+     display: flex;
+     flex-direction: column; 
+     flex-wrap: wrap
+ }
+ .card-body{
+     display: flex;
+     flex-direction: column;
+
+     
+ }
+ .card-wrap{
+     flex-grow: 1;
+ }
+ .button{
+    margin-top: auto;
+    margin-bottom: 5px;
+    padding: 9px;
+    background: rgb(124, 11, 124);
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+ }
+ .icon{
+    margin: auto;
+	background-color: darkcyan;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content:space-between;
+ }
+ img{
+     height: 70px;
+     width: 70px;
+ }
+
+
+
